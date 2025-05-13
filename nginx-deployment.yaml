@@ -3,7 +3,7 @@ kind: Deployment #Deployment in kubernetes is a collection of POD's
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 5 # original name
+  replicas: 8 # original name
   selector:
     matchLabels:
       app: nginx
